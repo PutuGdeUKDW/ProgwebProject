@@ -1,0 +1,159 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.container {
+ 
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 20px;
+    padding-bottom: 2%;
+
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+
+body {
+    background-image: url('tes9.png');
+    background-color: rgba(255, 255, 255, 0.5);
+    background-size: cover;
+
+    background-repeat: no-repeat;
+
+  }
+  header {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    font-size: 70px;
+    font-weight: bolder;
+    color: whitesmoke;
+    margin-top: 5.5vh;
+    margin-bottom: 0.5vh;
+    margin-left : 37.5%;
+    font-weight: bold;
+    text-shadow: 0 0 100px black, 0 0 100px black, 0 0 100px black, 0 0 100px black;
+
+}
+
+
+table{
+    border-collapse: collapse;
+    padding: 50px;
+
+    margin-left: auto;
+    margin-right: auto;
+    table-layout: fixed;
+    width: 410px;
+    height: 410px; 
+}
+
+table tr,table td, table th{
+    border-top:2px solid  rgb(173, 91, 214);
+    border-bottom:2px solid  rgb(173, 91, 214);
+    text-align: center;
+}
+
+.days{
+    color: #808080;
+}
+
+.month-year h3{
+    padding-top: 5%;
+    font-size: 29px;
+    margin-left: 25%;
+    margin-bottom: 35px;
+    margin-top: -25px;
+    text-align: left;
+    color: #716f6f;
+}
+.month-year h3:last-child{}
+.days th:first-child{
+    color:rgb(255, 62, 62);
+}
+
+td{
+    color: #525252;
+}
+.not-month{
+    color:rgb(199, 199, 199) ;
+}
+
+.priorities {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 11px;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  
+.block {
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+  }
+
+.spasi {
+    margin-left:2px;
+}
+.urgent {
+    background-color: red;
+    
+  }
+  
+.important {
+    background-color: blue;
+  }
+  
+.not-important {
+    background-color: green;
+  }
+
+a.urgent1:link, a.urgent1:visited {
+    color:red;
+    text-decoration:overline;
+    
+}
+
+a.important1:link, a.important1:visited {
+    color:blue;
+    text-decoration:overline;
+}
+
+a.not-important1:link, a.not-important1:visited {
+    color:green;
+    text-decoration: overline;
+}
+
+.today {
+    border-radius: 50%;
+    background-color: #c3c3c3;
+}
+
+.container .month-year {
+    margin-top: 30px;
+    margin-left: 150px;
+
+}
+
+footer {
+
+    text-align: center;
+    background: linear-gradient(to right, transparent, rgb(173, 91, 214), transparent);
+    opacity: 0.7;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:19px
+    
+}  
+
+a {
+    text-decoration: none;
+}
+
+
